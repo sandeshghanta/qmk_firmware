@@ -6,7 +6,7 @@
 #define KEY_HUE 78
 #define KEY_SAT 255
 // Capped by RGB_MATRIX_MAXIMUM_BRIGHTNESS (config.h).
-#define KEY_VAL 200
+#define KEY_VAL RGB_MATRIX_MAXIMUM_BRIGHTNESS
 // Lower = slower fade after a keypress (default 128).
 #define FADE_SPEED 48
 
